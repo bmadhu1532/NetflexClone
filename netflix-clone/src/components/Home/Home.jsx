@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     // Replaced body tag with a div, converted classes to className, and added inline style for the font
@@ -38,9 +38,12 @@ const Home = () => {
                 </svg>
               </div>
             </div>
-            <a href="#" className="bg-red-600 hover:bg-red-700 transition duration-300 text-white px-4 py-1.5 rounded font-medium text-sm md:text-base">
-              Sign In
-            </a>
+                      <Link 
+            to="/login" 
+            className="bg-[#E50914] py-2 px-4 rounded text-white font-bold"
+          >
+            Sign In
+          </Link>
           </div>
         </header>
 
