@@ -65,7 +65,7 @@ const Home = () => {
               <input type="email" id="email" placeholder="Email address" className="w-full h-12 md:h-14 px-4 pt-2 bg-black/50 border border-gray-500 rounded text-white placeholder-gray-400 focus:outline-none focus:border-white focus:ring-2 focus:ring-white peer" required />
             </div>
             <button type="submit" className="bg-red-600 hover:bg-red-700 transition duration-300 text-white text-xl md:text-2xl font-bold rounded px-6 py-3 md:py-0 md:px-8 flex items-center justify-center gap-2 flex-shrink-0">
-              Get Started
+              Get Started with Netflix
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9.99997 6L8.58997 7.41L13.17 12L8.58997 16.59L9.99997 18L16 12L9.99997 6Z" fill="white"></path>
               </svg>
